@@ -1,0 +1,74 @@
+body {
+	background-color: gray;
+}
+
+body,
+input {
+	color: black;
+
+}
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed blue;
+
+}
+
+.list {
+	background-color: white;
+	margin: 20px auto;
+	width: 100%;
+	max-width: 500px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 2px;
+
+}
+
+.list .header {
+	margin: 0 0 10px 0;
+
+}
+
+.items {
+	margin: 0;
+	padding: 0;
+}
+.items li,
+.item-add .input {
+	border: 0;
+	border-bottom: 1px;
+	padding: 15px 0;
+
+
+}
+
+.items .item.done {
+	text-decoration: line-through;
+	color: pink;
+}
+
+.input {
+	width: 100%;
+
+}
+.done-button {
+	display: inline-block;
+	font-size: .8em;
+	background-color: black;
+	color: white;
+	padding: 3px 6px;
+	border: 0;
+	opacity: 0.5;
+
+
+}
+.submit {
+	background-color: white;
+	padding: 5px 10px;
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 5px;
+}
+
+
+
